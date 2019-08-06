@@ -1,4 +1,4 @@
-package ex.kafka;
+package ex.kafka.chp03;
 
 
 import org.apache.kafka.clients.producer.KafkaProducer;
@@ -38,6 +38,7 @@ public class ExampleProducer {
             if (e != null)
                 e.printStackTrace();
         });
+
 
 
         try {
